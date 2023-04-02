@@ -4,8 +4,3 @@
 #folderName/folderName/folderName/file.Extension <== ignores specific file path
 #!file.Extension <== if you want to exempt specific file but the extension was added as git ignore
 
-#includes/servers
-includes/server.php
-
-
-.gitignore
