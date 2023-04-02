@@ -20,8 +20,6 @@
             <div class="card-body p-4 p-md-5">
               <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
 
-              <!-- <form action="controllers/save.php" method="POST"> -->
-
               <div class="row">
                 <div class="col-md-6 mb-4">
 
@@ -63,11 +61,9 @@
 
 
               <div class="mt-4 pt-2">
-                <!-- <input class="btn btn-primary btn-lg" type="submit" value="Submit" /> -->
                 <button class="btn btn-primary btn-lg" id="btnReg">Register</button>
               </div>
 
-              <!-- </form> -->
             </div>
           </div>
         </div>
@@ -82,3 +78,4 @@
 <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 <script src="assets/js/scripts.js"></script>
+<script src="assets/js/register.js"></script>

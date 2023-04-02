@@ -11,6 +11,7 @@ document.getElementById('btnReg').addEventListener('click', () => {
         pass: sPass
     }
 
+
     $.ajax(
         {
             type: 'POST',
@@ -20,7 +21,8 @@ document.getElementById('btnReg').addEventListener('click', () => {
                 if (result == 'error') {
                     alert('Error! Please contact your system admin.')
                 } else {
-                    alert("Thank you! You are now registered!")
+                    alert(result);
+                    // console.log(result);
 
                 }
             }
