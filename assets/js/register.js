@@ -11,4 +11,20 @@ document.getElementById('btnReg').addEventListener('click', () => {
         pass: sPass
     }
 
+    $.ajax(
+        {
+            type: 'POST',
+            url: 'controllers/register.php',
+            data: objCred,
+            success: (result) => {
+                if (result == 'error') {
+                    alert('Error! Please contact your system admin.')
+                } else {
+                    alert("Thank you! You are now registered!")
+
+                }
+            }
+        }
+    )
+
 })
