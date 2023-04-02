@@ -1,0 +1,4 @@
+#/folderName <== ignores the whole folder/directory
+#.fileName <== ignores specific file
+#*.fileExtension <== ignores all file with the extension
+#folderName/folderName/folderName/file.Extension <== ignores specific file path
